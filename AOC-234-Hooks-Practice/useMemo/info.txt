@@ -1,0 +1,7 @@
+This project displays `useMemo` functionality in memoizing fibonacci numbers.
+
+If you pick a number `n` and input it, the nth fibonacci number will be calculated, and "Calculating" will be output to the console.
+
+By clicking "Check Memo", the component re-renders and the value is memoized with no need to calculate it once more.
+
+This is shown by no console output 
