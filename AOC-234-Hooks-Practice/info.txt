@@ -1,0 +1,2 @@
+This shows the use of `useState`, `useEffect` in a custom hook, 
+which handles mock data fetch (setTimeout) and mock loading.
