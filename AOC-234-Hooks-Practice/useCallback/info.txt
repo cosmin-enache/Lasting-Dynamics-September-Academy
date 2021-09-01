@@ -1,0 +1,9 @@
+We use `useCallback` to maintain function references throughout component renders.
+
+This is can by mainly used, from my understanding, to prevent wasting resources on re-creating computationally heavy functions.
+
+This project contains a counter and a 'functionSet' which adds a reference to the 'incrementCounter' function each time the App
+
+component is rendered. If we use `useCallback`, we should always be getting the same number of elements in the set, as the
+
+function reference remains the same, and sets can only accept unique values.
