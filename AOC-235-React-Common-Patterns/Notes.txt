@@ -1,0 +1,7 @@
+- Layout components are set to not re-render using `shouldComponentUpdate() { return false; }`, as they are usually only
+containers (static html elements) which do not require re-rendering. If children are passed as props to layout components,
+They will still get re-rendered. React.memo() is used in place of shouldComponentUpdate(), but it checks whether the component
+props change (to update the components)
+
+- Style components are a method of organising pre-set styles for components. They are usually broken up into multiple components,
+with props to interface between each other.
