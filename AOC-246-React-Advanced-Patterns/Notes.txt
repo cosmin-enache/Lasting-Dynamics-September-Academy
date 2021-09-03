@@ -1,0 +1,5 @@
+- When defining a functional HOC, make sure to pass a function to it with 'props' as a parameter. This function returns the
+actual component.
+
+- State hoisting is used to change the state of a container component from its child component, usually by passing it a callback
+as a prop. This improves component reusability.
