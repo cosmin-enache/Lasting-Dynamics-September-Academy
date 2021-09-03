@@ -1,0 +1,24 @@
+SPA Pros
+
+- SPAs only need to load resources once, at load time.
+- Easy to debug, especially considering the variety of plugins available (Like react component profiler)
+- Caching to local storage effectively, the app can use data retrieved even while offline.
+- Option to use same back-end with mobile applications
+
+SPA Cons
+
+- Tricky to optimize as content is updated asynchronously.
+- Slow to download at first.
+- Requires JavaScript to be enabled.
+- More vulnerable to XSS attacks (If input sanitization is not properly done)
+
+MPA Pros
+
+- No restriction on the number of pages to add, easier to scale
+- Better search engine optimization
+
+MPA Cons
+
+- No option to use same back-end with mobile apps
+- Front-end and back-end development are tightly coupled
+- Development can become quite complex, resulting in longer development time
